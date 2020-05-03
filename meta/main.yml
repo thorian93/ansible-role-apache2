@@ -1,0 +1,5 @@
+---
+galaxy_info:
+  author: Thorian93
+  description: Ansible Role Apache2
+  license: "license (MIT)"
