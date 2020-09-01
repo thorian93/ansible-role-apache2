@@ -1,4 +1,4 @@
-# Support for OSes:
+---
 apache2_stable_os:
   - Debian 9
   - Debian 10
