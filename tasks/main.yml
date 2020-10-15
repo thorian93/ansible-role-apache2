@@ -43,7 +43,7 @@
 
 - name: "Enable Apache2 Modules on Debian Derivates."
   apache2_module:
-    name: "{{item}}"
+    name: "{{ item }}"
     state: present
   with_items: "{{ apache2_modules }}"
   notify: "restart webserver"
