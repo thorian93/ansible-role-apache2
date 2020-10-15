@@ -2,6 +2,10 @@
 
 This role installs and configures the Apache2 webserver on RHEL/CentOS, Debian/Ubuntu and Fedora servers.
 
+[![Ansible Role: Apache2](https://img.shields.io/ansible/role/51300?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_apache2)
+[![Ansible Role: Apache2](https://img.shields.io/ansible/quality/51300?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_apache2)
+[![Ansible Role: Apache2](https://img.shields.io/ansible/role/d/51300?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_apache2)
+
 ## Here be Dragons!
 
 This role is mainly intended for my personal use. I can not guarantee any stability or usability for your use case. Study the role carefully before using it!
@@ -29,7 +33,7 @@ None.
 
 This role ensures that it is not used against unsupported or untested operating systems by checking, if the right distribution name and major version number are present in a dedicated variable named like `<role-name>_stable_os`. You can find the variable in the role's default variable file at `defaults/main.yml`:
 
-    common_stable_os:
+    role_stable_os:
       - Debian 10
       - Ubuntu 18
       - CentOS 7

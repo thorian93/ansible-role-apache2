@@ -2,11 +2,11 @@
 apache2_stable_os:
   - Debian 9
   - Debian 10
-  - Ubuntu 16
-  - Ubuntu 18
-  - Ubuntu 20
   - CentOS 7
   - CentOS 8
   - Fedora 30
   - Fedora 31
   - Fedora 32
+  - Ubuntu 16
+  - Ubuntu 18
+  - Ubuntu 20
