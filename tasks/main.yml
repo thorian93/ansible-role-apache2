@@ -56,7 +56,7 @@
   with_items:
     - "000-default.conf"
     - "default-ssl.conf"
-  when: ansible_os_family == "Debian"
+  when: (ansible_os_family == "Debian") and (apache2_disable_default_site | bool)
 
 - name: "Disable possibly insecure Modules on Debian Derivates."
   apache2_module:

@@ -23,7 +23,9 @@ No special requirements; note that this role requires root access, so either run
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-**Currently this role is not configurable via variables!**
+    apache2_disable_default_site: 'true'
+
+Disable the default site of the apache2 installation.
 
 ## Dependencies
 

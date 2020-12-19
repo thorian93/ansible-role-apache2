@@ -10,3 +10,5 @@ apache2_stable_os:
   - Ubuntu 16
   - Ubuntu 18
   - Ubuntu 20
+
+apache2_disable_default_site: 'true'
