@@ -64,3 +64,6 @@
     state: absent
   notify: "restart webserver"
   when: ansible_os_family == "Debian"
+
+- name: "Fore Handler Execution to ensure Apache2 is restarted."
+  meta: flush_handlers
