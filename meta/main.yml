@@ -1,6 +1,7 @@
 ---
 galaxy_info:
-  author: Thorian93
+  role_name: apache2
+  author: thorian93
   description: Ansible Role Apache2
   license: "license (MIT)"
 
