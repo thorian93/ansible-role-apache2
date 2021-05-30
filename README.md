@@ -2,9 +2,9 @@
 
 This role installs and configures the Apache2 webserver on RHEL/CentOS, Debian/Ubuntu and Fedora servers.
 
-[![Ansible Role: Apache2](https://img.shields.io/ansible/role/51300?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_apache2)
-[![Ansible Role: Apache2](https://img.shields.io/ansible/quality/51300?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_apache2)
-[![Ansible Role: Apache2](https://img.shields.io/ansible/role/d/51300?style=flat-square)](https://galaxy.ansible.com/thorian93/ansible_role_apache2)
+[![Ansible Role: Apache2](https://img.shields.io/ansible/role/55128?style=flat-square)](https://galaxy.ansible.com/thorian93/apache2)
+[![Ansible Role: Apache2](https://img.shields.io/ansible/quality/55128?style=flat-square)](https://galaxy.ansible.com/thorian93/apache2)
+[![Ansible Role: Apache2](https://img.shields.io/ansible/role/d/55128?style=flat-square)](https://galaxy.ansible.com/thorian93/apache2)
 
 ## Here be Dragons!
 
