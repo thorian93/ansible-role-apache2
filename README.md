@@ -1,6 +1,6 @@
 # Ansible Role: Apache2
 
-This role installs and configures the Apache2 webserver on RHEL/CentOS, Debian/Ubuntu and Fedora servers.
+This role installs and configures the Apache2 webserver on Debian/Ubuntu, RHEL/CentOS and Fedora servers.
 
 [![Ansible Role: Apache2](https://img.shields.io/ansible/role/55128?style=flat-square)](https://galaxy.ansible.com/thorian93/apache2)
 [![Ansible Role: Apache2](https://img.shields.io/ansible/quality/55128?style=flat-square)](https://galaxy.ansible.com/thorian93/apache2)
@@ -16,7 +16,7 @@ No special requirements; note that this role requires root access, so either run
 
     - hosts: foobar
       roles:
-        - role: ansible-role-apache2
+        - role: thorian93.apache2
           become: yes
 
 ## Role Variables
