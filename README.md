@@ -1,5 +1,7 @@
 # Ansible Role: Apache2
 
+<img src="https://img.shields.io/badge/-Apache-%23D22128?style=for-the-badge&logo=Apache" alt="Apache">
+
 This role installs and configures the Apache2 webserver on Debian/Ubuntu, RHEL/CentOS and Fedora servers.
 
 [![Ansible Role: Apache2](https://img.shields.io/ansible/role/55128?style=flat-square)](https://galaxy.ansible.com/thorian93/apache2)
